@@ -1,3 +1,11 @@
 package main
 
-// Your CLI goes here!
+import (
+	"os"
+
+	"github.com/aculclasure/morningpost"
+)
+
+func main() {
+	os.Exit(morningpost.Main())
+}
